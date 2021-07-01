@@ -1,0 +1,53 @@
+body {
+	background-color: black;
+	margin: 10px;
+	min-height: 60vh;
+	min-width: 60vw;
+}
+
+h1 {
+	color: #89E22B;
+	font-family: Cascadia Code, Arial;
+	text-align: center;
+	font-size: 36px;
+}
+
+h1::selection{
+	color: black;
+	background-color: yellow;
+	transition-delay: 2s;
+}
+
+.clock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: 5enter;
+  min-height: 60vh;
+  min-width: 60vw;
+  font-family: Cascadia Code, Arial;
+  padding-bottom: 5%;
+}
+
+.clock::selection{
+	color: black;
+	background-color: yellow;
+}
+
+h2 {
+	color: wheat;
+	font-family: Cascadia Code, Arial;
+	text-align: left;
+}
+
+h2::selection{
+	color: black;
+	background-color: yellow;
+	transition-delay: 2s;
+}
+
+.link {
+	text-align: right;
+	font-family: Cascadia Code, Arial;
+}
